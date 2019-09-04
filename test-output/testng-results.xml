@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="3" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Screebashots are going to attach]]>
+    </line>
+    <line>
+      <![CDATA[All the pass screens are captured]]>
+    </line>
+    <line>
+      <![CDATA[Html reports are comp[leated]]>
+    </line>
+    <line>
+      <![CDATA[Screebashots are going to attach]]>
+    </line>
+    <line>
+      <![CDATA[All the pass screens are captured]]>
+    </line>
+    <line>
+      <![CDATA[Html reports are comp[leated]]>
+    </line>
+    <line>
+      <![CDATA[Screebashots are going to attach]]>
+    </line>
+    <line>
+      <![CDATA[Screebashots are going to attach]]>
+    </line>
+    <line>
+      <![CDATA[All the failure screens are captured]]>
+    </line>
+    <line>
+      <![CDATA[Html reports are comp[leated]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16630" started-at="2019-09-03T14:11:01Z" finished-at="2019-09-03T14:11:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16630" started-at="2019-09-03T14:11:01Z" finished-at="2019-09-03T14:11:18Z">
+      <class name="com.TestRunner.Executionwindow">
+        <test-method status="PASS" signature="initialexecution()[pri:0, instance:com.TestRunner.Executionwindow@75bd9247]" name="initialexecution" is-config="true" duration-ms="448" started-at="2019-09-03T19:41:01Z" finished-at="2019-09-03T19:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialexecution -->
+        <test-method status="PASS" signature="projectexecution()[pri:0, instance:com.TestRunner.Executionwindow@75bd9247]" name="projectexecution" duration-ms="9667" started-at="2019-09-03T19:41:01Z" finished-at="2019-09-03T19:41:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- projectexecution -->
+        <test-method status="PASS" signature="screenshotsattachtoreport(org.testng.ITestResult)[pri:0, instance:com.TestRunner.Executionwindow@75bd9247]" name="screenshotsattachtoreport" is-config="true" duration-ms="986" started-at="2019-09-03T19:41:11Z" finished-at="2019-09-03T19:41:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=projectexecution status=SUCCESS method=Executionwindow.projectexecution()[pri:0, instance:com.TestRunner.Executionwindow@75bd9247] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Screebashots are going to attach]]>
+            </line>
+            <line>
+              <![CDATA[All the pass screens are captured]]>
+            </line>
+            <line>
+              <![CDATA[Html reports are comp[leated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshotsattachtoreport -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.TestRunner.Executionwindow@75bd9247]" name="test2" duration-ms="4640" started-at="2019-09-03T19:41:12Z" finished-at="2019-09-03T19:41:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="screenshotsattachtoreport(org.testng.ITestResult)[pri:0, instance:com.TestRunner.Executionwindow@75bd9247]" name="screenshotsattachtoreport" is-config="true" duration-ms="480" started-at="2019-09-03T19:41:16Z" finished-at="2019-09-03T19:41:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test2 status=SUCCESS method=Executionwindow.test2()[pri:0, instance:com.TestRunner.Executionwindow@75bd9247] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Screebashots are going to attach]]>
+            </line>
+            <line>
+              <![CDATA[All the pass screens are captured]]>
+            </line>
+            <line>
+              <![CDATA[Html reports are comp[leated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshotsattachtoreport -->
+        <test-method status="FAIL" signature="test3()[pri:0, instance:com.TestRunner.Executionwindow@75bd9247]" name="test3" duration-ms="255" started-at="2019-09-03T19:41:17Z" finished-at="2019-09-03T19:41:17Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9QSD73T', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\TT089\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56102}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ba9586f6eb98b575a4cbc1e7bf807806]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-9QSD73T', ip: '192.168.0.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_212'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.68 (420c9498db8ce..., userDataDir: C:\Users\TT089\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56102}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ba9586f6eb98b575a4cbc1e7bf807806
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy8.click(Unknown Source)
+	at com.webpageobjects.Webpageobjectscls.hrmpagelogout(Webpageobjectscls.java:59)
+	at com.Testcases.Testcases.testcasethree(Testcases.java:26)
+	at com.TestRunner.Executionwindow.test3(Executionwindow.java:32)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="screenshotsattachtoreport(org.testng.ITestResult)[pri:0, instance:com.TestRunner.Executionwindow@75bd9247]" name="screenshotsattachtoreport" is-config="true" duration-ms="573" started-at="2019-09-03T19:41:17Z" finished-at="2019-09-03T19:41:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test3 status=FAILURE method=Executionwindow.test3()[pri:0, instance:com.TestRunner.Executionwindow@75bd9247] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Screebashots are going to attach]]>
+            </line>
+            <line>
+              <![CDATA[Screebashots are going to attach]]>
+            </line>
+            <line>
+              <![CDATA[All the failure screens are captured]]>
+            </line>
+            <line>
+              <![CDATA[Html reports are comp[leated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- screenshotsattachtoreport -->
+      </class> <!-- com.TestRunner.Executionwindow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
